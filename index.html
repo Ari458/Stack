@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stack</title>
+</head>
+<body>
+    <section class="graphical">
+        <div class="stack"></div> 
+        <button class="define">Define Stack</button>
+        <p class="status"></p>   
+    </section>
+            
+    <section class="input">
+        <div class="push-section">
+            <label>Your Element</label>
+               <input class="type-element" type="text">
+               <div class="push">Push</div>
+        </div>
+        <div class="pop-section">
+            <div class="pop">Pop</div>  
+        </div>
+    </section>
+
+    <section class="pop-up-screen-bg">
+           <div class="pop-up-box">
+                <label>Stack Size</label>
+               <input placeholder="" class="stack-size" type="number">
+               <label>Data Type</label>
+               <select class="data-type">
+                   <option value="Int">Int</option>
+                   <option value="Char">Char</option>
+               </select>
+            <button class="creation">Create Stack</button>   
+           </div>
+    </section>
+
+    <script src="prog.js"></script>
+</body>
+</html>
